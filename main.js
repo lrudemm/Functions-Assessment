@@ -5,15 +5,18 @@
     HINT: to get a single character of a string, 
     you can use bracket syntax like you used to access array elements */
 
-function firstLetterName() {
-
+function firstLetterName(NAME) {
+    const FIRSTLETTEROFNAME = NAME[0];
+    alert ("The name " + NAME + " starts with the letter " +  FIRSTLETTEROFNAME);
 }
+
+firstLetterName("Larry");
 
 /* Define a function divisibleByTwo. It should take a single parameter number
     and determine whether the number input is an even or odd number. 
     If it's even, the function should return true. 
     If it's odd, the function should return false.
-        HINT: You'll need to use the % operator. */
+    HINT: You'll need to use the % operator. */
 
 
 
