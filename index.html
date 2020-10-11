@@ -13,6 +13,37 @@
     <li>Kali</li>
     <li>Larry</li>
 </ul>
-	<script src="main.js"></script>
+
+<p>The largest number is <span id="demo"></span>.</p>
+
+<script>
+
+var points = [1,2,3,4];
+document.getElementById("demo").innerHTML = largestNum(points);
+
+function largestNum(arr) {
+       for (let i = 0; i <= 4; i ++) 
+       console.log(i);
+       return Math.max.apply(null, arr);
+
+
+  
+
+}
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>
